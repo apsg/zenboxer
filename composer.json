@@ -1,12 +1,12 @@
 {
     "name": "apsg/zenboxer",
-    "description": ":package_description",
-    "license": "license",
+    "description": "Zenbox issues fixer",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Szymon Gackowski",
+            "email": "szymon@gackowski.edu.pl",
+            "homepage": "https://gackowski.edu.pl"
         }
     ],
     "homepage": "https://github.com/apsg/zenboxer",
@@ -32,10 +32,7 @@
         "laravel": {
             "providers": [
                 "Apsg\\Zenboxer\\ZenboxerServiceProvider"
-            ],
-            "aliases": {
-                "Zenboxer": "Apsg\\Zenboxer\\Facades\\Zenboxer"
-            }
+            ]
         }
     }
 }
